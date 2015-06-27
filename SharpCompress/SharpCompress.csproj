@@ -76,7 +76,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>SharpCompress.pfx</AssemblyOriginatorKeyFile>
@@ -307,6 +307,7 @@
     <Compile Include="Common\Rar\Headers\RarHeader.cs" />
     <Compile Include="IO\MarkingBinaryReader.cs" />
     <Compile Include="Common\Rar\Headers\NewSubHeader.cs" />
+    <Compile Include="Common\Rar\Headers\ProtectHeader.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Common\Rar\Headers\RarHeaderFactory.cs" />
     <Compile Include="Common\Rar\Headers\Flags.cs" />
