@@ -64,7 +64,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\bin\NET2\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;NET2</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -307,6 +307,7 @@
     <Compile Include="Common\Rar\Headers\RarHeader.cs" />
     <Compile Include="IO\MarkingBinaryReader.cs" />
     <Compile Include="Common\Rar\Headers\NewSubHeader.cs" />
+    <Compile Include="Common\Rar\Headers\ProtectHeader.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Common\Rar\Headers\RarHeaderFactory.cs" />
     <Compile Include="Common\Rar\Headers\Flags.cs" />
